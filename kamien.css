@@ -1,0 +1,113 @@
+body,*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana;
+    user-select: none;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    background-color: DodgerBlue;
+    color: white;
+}
+
+h2{
+    padding-top: 30px;
+}
+
+#lewy{
+    background-color: DodgerBlue;
+    color: white;
+    float: left;
+    width: 20%;
+    height: 850px;
+}
+
+main{
+    float: left;
+    background-color: WhiteSmoke;
+    width: 60%;
+    height: 850px;
+}
+
+#gracz{
+    height: 300px;
+    border-bottom: 5px solid dodgerblue;
+}
+
+#oponent{
+    height: 300px;
+}
+
+#wynik{
+    height: 200px;
+    border-top: 5px solid dodgerblue;
+    text-align: center;
+}
+
+#prawy{
+    background-color: DodgerBlue;
+    color: white;
+    float: right;
+    width: 20%;
+    height: 850px;
+}
+
+#reklama{
+    border: 1px solid white;
+    height: 500px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+li,ul{
+    padding-top: 5px;
+}
+
+#menu>p{
+    margin-left: 5px;
+}
+
+button,#wybor_oponenta{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: LightBlue;
+    font-size: 35px;
+    margin: 38px;
+    margin-left: 195px;
+    transition: 500ms ease;
+}
+
+button{
+    margin-top: 100px;
+}
+
+button:hover{
+    border: 1px solid black;
+    font-size: 60px;
+}
+
+#wybor_oponenta{
+    margin-top: 100px;
+    padding-top: 25px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: DodgerBlue;
+    color: white;
+}
