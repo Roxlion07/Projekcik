@@ -1,0 +1,70 @@
+body,*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana;
+    user-select: none;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    background-color: DodgerBlue;
+    color: white;
+}
+
+h2{
+    padding-top: 30px;
+}
+
+#lewy{
+    background-color: DodgerBlue;
+    color: white;
+    float: left;
+    width: 20%;
+    height: 850px;
+}
+
+main{
+    float: left;
+    background-color: WhiteSmoke;
+    width: 60%;
+    height: 850px;
+}
+
+#prawy{
+    background-color: DodgerBlue;
+    color: white;
+    float: right;
+    width: 20%;
+    height: 850px;
+}
+
+#reklama{
+    border: 1px solid white;
+    height: 500px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+li,ul{
+    padding-top: 5px;
+}
+
+#menu>p{
+    margin-left: 5px;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: DodgerBlue;
+    color: white;
+}
