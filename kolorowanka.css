@@ -1,0 +1,112 @@
+body,*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana;
+    user-select: none;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+header{
+    text-align: center;
+    height: 100px;
+    background-color: DodgerBlue;
+    color: white;
+}
+
+h2{
+    padding-top: 30px;
+}
+
+#lewy{
+    background-color: DodgerBlue;
+    color: white;
+    float: left;
+    width: 20%;
+    height: 850px;
+}
+
+main{
+    float: left;
+    background-color: WhiteSmoke;
+    width: 60%;
+    height: 850px;
+}
+
+button{
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    background-color: DodgerBlue;
+    color: white;
+}
+
+button:hover{
+    background-color: #0068FB;
+}
+
+#prawy{
+    background-color: DodgerBlue;
+    color: white;
+    float: right;
+    width: 20%;
+    height: 850px;
+}
+
+#reklama{
+    border: 1px solid white;
+    height: 500px;
+    width: 90%;
+    margin-left: 10px;
+}
+
+li,ul{
+    padding-top: 5px;
+}
+
+#menu>p{
+    margin-left: 5px;
+}
+
+#wybor_kolorow{
+    height: 125px;
+    border-bottom: 5px solid DodgerBlue;
+}
+
+.kolor{
+    margin-top: 30px;
+    margin-left: 35px;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#malowanie{
+    width: 40%;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.plotno{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    background-color: DodgerBlue;
+    color: white;
+}
