@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kalkulator.css">
+    <title>Kalkulator</title>
+    <script src="kalkulator.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Kalkulator</h2>
+    </header>
+    <aside id="lewy">
+        <section id="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="C:\Users\Kacper\Desktop\Projekt\Glowna\index.html">Strona główna</a></li>
+                <li><a href="C:\Users\Kacper\Desktop\Projekt\Kamien-Papier-Nozyce\kamien.html">Kamień-Papier-Nożyce</a></li>
+                <li><a href="C:\Users\Kacper\Desktop\Projekt\Kalkulator\kalkulator.html">Kalkulator</a></li>
+                <li>Opcja 3</li>
+                <li>Opcja 4</li>
+            </ul>
+        </section>
+    </aside>
+    <main>
+        <p>Poniżej znajduje się kalkulator, zachęcam do skorzystania ;)</p>
+        <section id="kalkulator">
+            <section id="wpisywanie">
+                <input type="text" id="wpis" readonly>
+            </section>
+            <section id="klawiatura">
+                <button class="guzik" onclick="wpisz('*'); return false;">*</button>
+                <button class="guzik" onclick="wpisz('7'); return false;">7</button>
+                <button class="guzik" onclick="wpisz('8'); return false;">8</button>
+                <button class="guzik" onclick="wpisz('9'); return false;">9</button><br>
+                <button class="guzik" onclick="wpisz('/'); return false;">/</button>
+                <button class="guzik" onclick="wpisz('4'); return false;">4</button>
+                <button class="guzik" onclick="wpisz('5'); return false;">5</button>
+                <button class="guzik" onclick="wpisz('6'); return false;">6</button><br>
+                <button class="guzik" onclick="wpisz('+'); return false;">+</button>
+                <button class="guzik" onclick="wpisz('3'); return false;">3</button>
+                <button class="guzik" onclick="wpisz('2'); return false;">2</button>
+                <button class="guzik" onclick="wpisz('1'); return false;">1</button><br>
+                <button class="guzik" onclick="wpisz('-'); return false;">-</button>
+                <button class="guzik" onclick="wpisz('.'); return false;">.</button>
+                <button class="guzik" onclick="wpisz('0'); return false;">0</button>
+                <button class="guzik" onclick="czysc(); return false;">C</button>
+                <button class="guzik" id="rownasie" onclick="wynik(); return false;">=</button>
+            </section>
+        </section>
+    </main>
+    <aside id="prawy">
+        <section id="reklama">
+            <p>Tutaj<br>będzie<br>reklama</p>
+        </section>
+    </aside>
+    <footer>
+        <strong>Strona by: Mietek</strong>
+    </footer>
+</body>
+</html>
