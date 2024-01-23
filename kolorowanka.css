@@ -29,14 +29,14 @@ h2{
     color: white;
     float: left;
     width: 20%;
-    height: 850px;
+    height: 87.6vh;
 }
 
 main{
     float: left;
     background-color: WhiteSmoke;
     width: 60%;
-    height: 850px;
+    height: 87.6vh;
 }
 
 button{
@@ -57,7 +57,7 @@ button:hover{
     color: white;
     float: right;
     width: 20%;
-    height: 850px;
+    height: 87.6vh;
 }
 
 #reklama{
@@ -76,7 +76,7 @@ li,ul{
 }
 
 #wybor_kolorow{
-    height: 125px;
+    height: 10vh;
     border-bottom: 5px solid DodgerBlue;
 }
 
@@ -105,6 +105,7 @@ li,ul{
 }
 
 footer{
+    height: 2.1vh;
     clear: both;
     text-align: center;
     background-color: DodgerBlue;
