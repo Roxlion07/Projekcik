@@ -15,7 +15,7 @@ a:hover{
 
 header{
     text-align: center;
-    height: 100px;
+    height: 10vh;
     background-color: DodgerBlue;
     color: white;
 }
@@ -29,14 +29,14 @@ h2{
     color: white;
     float: left;
     width: 20%;
-    height: 850px;
+    height: 87.6vh;
 }
 
 main{
     float: left;
     background-color: WhiteSmoke;
     width: 60%;
-    height: 850px;
+    height: 87.6vh;
 }
 
 #prawy{
@@ -44,7 +44,7 @@ main{
     color: white;
     float: right;
     width: 20%;
-    height: 850px;
+    height: 87.6vh;
 }
 
 #reklama{
@@ -63,6 +63,7 @@ li,ul{
 }
 
 footer{
+    height: 2.4vh;
     clear: both;
     text-align: center;
     background-color: DodgerBlue;
